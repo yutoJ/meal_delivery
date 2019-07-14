@@ -1,7 +1,8 @@
 import React from 'react';
 import GlobalStyle from "./styles/GlobalStyle";
-import { Navbar } from "./Navbar/Navbar";
-import { Banner } from "./Banner/Banner";
+import { Navbar } from "./Navbar";
+import { Banner } from "./Banner";
+import { Menu } from "./Menu";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <GlobalStyle/>
       <Navbar />
       <Banner />
+      <Menu />
     </>
   );
 }
