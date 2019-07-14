@@ -3,7 +3,7 @@ import { Title } from "../styles/title";
 
 export const FoodGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   padding-bottom: 40px;
 `;
@@ -29,7 +29,7 @@ export const Food = styled.div`
   box-shadow: 0px 0px 2px 0px grey;
   &:hover {
     cursor: pointer;
-    filter: contrast(100%);
+    filter: contrast(80%);
     margin-top: 0px;
     margin-bottom: 5px;
     box-shadow: 0px 5px 10px 0px grey;
